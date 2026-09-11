@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo de Adivinhacao</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <h1> Jogo de Adivinhacao</h1>
+
+  <p>O computador escolheu um numero entre <strong>1 e 100</strong>.</p>
+  <p>Tente adivinhar! Voce tem <strong>10 tentativas</strong>.</p>
+
+  <input type="number" id="palpite" placeholder="Digite seu palpite" min="1" max="100" />
+  <button onclick="fazerPalpite()">Chutar</button>
+
+  <p id="mensagem"></p>
+  <p id="tentativas"></p>
+
+  <script src="script.js"></script> 
+</body>
+</html>
